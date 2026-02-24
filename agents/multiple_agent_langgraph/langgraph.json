@@ -1,0 +1,13 @@
+{
+    "dependencies": [
+        "langgraph",
+        "langchain",
+        "langchain-openai",
+        "python-dotenv",
+        "."
+    ],
+    "graphs": {
+        "travel_multi_agent": "./src/graph.py:graph"
+    },
+    "env": "./.env"
+}

@@ -43,7 +43,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 # Choose the LLM that will drive the agent
-llm = ChatOpenAI(model="gpt-3.5-turbo-1106", temperature=0)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 # Setup the toolkit
 toolkit = [add, multiply, square]
