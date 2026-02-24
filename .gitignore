@@ -1,3 +1,7 @@
 genai-advanced-demos/*
 
 .env
+
+.DS_Store
+
+__pycache__/
