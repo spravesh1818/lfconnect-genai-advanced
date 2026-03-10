@@ -1,5 +1,6 @@
 from pprint import pprint
 from graph import graph
+from config import MAX_REVISIONS
 
 
 if __name__ == "__main__":
@@ -8,7 +9,7 @@ if __name__ == "__main__":
             "topic": "OpenAI launches a new tool for developers",
             "angle": "What launched and why it matters",
             "revision_count": 0,
-            "max_revisions": 2,
+            "max_revisions": MAX_REVISIONS,
             "logs": [],
         }
     )

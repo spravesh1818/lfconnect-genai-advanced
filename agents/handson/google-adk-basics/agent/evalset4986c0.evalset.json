@@ -1,0 +1,146 @@
+{
+  "eval_set_id": "evalset4986c0",
+  "name": "evalset4986c0",
+  "eval_cases": [
+    {
+      "eval_id": "caseed58ae",
+      "conversation": [
+        {
+          "invocation_id": "e-460ca216-3273-44e0-b15b-8df4084fd2d6",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Hello"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Hello! How can I assist you today?"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1773110853.701832
+        }
+      ],
+      "session_input": {
+        "app_name": "agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1773110889.4265652
+    },
+    {
+      "eval_id": "cased88d4f",
+      "conversation": [
+        {
+          "invocation_id": "e-460ca216-3273-44e0-b15b-8df4084fd2d6",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Hello"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Hello! How can I assist you today?"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1773110853.701832
+        },
+        {
+          "invocation_id": "e-3856ddab-cb3e-4c93-a62b-158fcceff14b",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Hello"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Hello again! How can I help you?"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1773110906.936176
+        },
+        {
+          "invocation_id": "e-f554e73c-ea31-489e-a464-e92b0da227db",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Get me the current time"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "The current time is 08:34:09 on March 10, 2026."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "openai_basic_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_call": {
+                        "id": "call_mdKiPuak3uNwGf6f9LdS8S18",
+                        "args": {},
+                        "name": "get_current_time"
+                      }
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "openai_basic_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "call_mdKiPuak3uNwGf6f9LdS8S18",
+                        "name": "get_current_time",
+                        "response": {
+                          "result": "2026-03-10 08:34:09"
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1773110948.1051
+        }
+      ],
+      "session_input": {
+        "app_name": "agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1773111001.375533
+    }
+  ],
+  "creation_timestamp": 1773110885.538785
+}
