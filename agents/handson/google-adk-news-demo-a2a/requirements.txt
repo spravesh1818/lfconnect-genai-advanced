@@ -1,0 +1,6 @@
+google-adk
+litellm
+python-dotenv
+tavily-python
+uvicorn
+google-adk[a2a]
